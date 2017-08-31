@@ -3,5 +3,5 @@ COPY temp_http.py /tmp
 EXPOSE 3000
 RUN chmod u+x /tmp/temp_http.py
 
-CMD /tmp/temp_http.py
+CMD ["python", "-u", "/tmp/temp_http.py"]
 
