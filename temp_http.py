@@ -6,7 +6,7 @@ import os
 import time
 
 PORT = 3000
-TIME_UP = int(os.getenv('HTTP_TIMEOUT', 30))
+TIME_UP = int(os.getenv('HTTP_TIMEOUT', 60))
 
 Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
